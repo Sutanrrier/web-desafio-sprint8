@@ -45,13 +45,13 @@ select{
 }
 
 hr{
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 button{
     width: 20%;
     font-size: 18px;
-    padding: 8px;
+    padding: 4px;
     margin-bottom: 12px;
 }
 
