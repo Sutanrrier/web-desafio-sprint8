@@ -2,11 +2,40 @@
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <title>EstacionAqui</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>EstacionAqui - Cadastro</title>
   </head>
   <body>
-    <div>
+    <div id="header">
+      <img
+        src="/images/estacionAquiLogo.svg"
+        alt="EstacionaAqui Logo"
+        id="logo"
+      />
       <h1>EstacionAqui - Cadastro</h1>
+      <p>Preencha o formulário abaixo e estacione seu carro com a gente!</p>
+    </div>
+
+    <div>
+      <form action="">
+        <label for="cor">Cor do Veículo: </label>
+        <input type="text" name="cor" />
+        <br>
+        <label for="placa">Placa do Veículo: </label>
+        <input type="text" name="placa" />
+        <br>
+        <label for="velocidademax">Velocidade Máxima do Veículo: </label>
+        <input type="text" name="velocidademax" />
+        <br>
+        <label for="estacionamento_id">Qual estacionamento deseja utilizar: </label>
+        <select name="estacionamento_id">
+            <option value="1">Estacionamento Rio Mar</option>
+            <option value="2">Estacionamento SEPOG</option>
+            <option value="3">Estacionamento Flow</option>
+        </select>
+        <br>
+        <button type="submit">Cadastrar</button>
+      </form>
     </div>
   </body>
 </html>
